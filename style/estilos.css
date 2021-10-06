@@ -24,5 +24,7 @@ ul{
 .mainButton:hover{
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow:green 2px 1px;
+   
+.logo{
+    height: 60px;
 }
