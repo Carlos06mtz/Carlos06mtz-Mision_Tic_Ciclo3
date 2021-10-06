@@ -12,14 +12,25 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+.buscar{
+    background-color: white;
+    border: solid 1px gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within{
+    border: solid 1px blue;
+}
+.buscar>input{
+    outline: none;
+    border: 0px;
+}
 .button{
     color: white;
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
-    font-weight: bolder;
-    
-    
+    font-weight: bolder;     
 }
 .button:hover{
     cursor: pointer;
