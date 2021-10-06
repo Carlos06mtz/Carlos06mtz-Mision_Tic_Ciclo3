@@ -38,3 +38,6 @@ ul{
 .secondaryButton:hover{
     box-shadow:rgb(124, 223, 214) 1px 1px;
 }
+.logo{
+    height: 60px;
+}
