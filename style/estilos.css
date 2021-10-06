@@ -31,7 +31,7 @@ ul{
 .buscar:focus-within{
     border: solid 1px blue;
 }
-.buscar>input{
+.buscar > input{
     outline: none;
     border: 0px;
 }
@@ -61,8 +61,26 @@ ul{
     box-shadow:rgb(124, 223, 214) 1px 1px;
 }
 .logo{
-    height: 40px;
+    height: 70px;
 }
 .iconobusqueda:hover{
     color: rgb(137, 0, 235);
+}
+.breedcardcontainer{
+    display: flex;
+}
+.breedcard{
+    margin: 10px;
+    color: rgba(2, 0, 0, 0.897);
+    font-weight:bolder;
+    background-color: azure;
+}
+.contenedorimagen{
+    width: 200px;
+    height: 300px;
+    display: flex;
+}
+.contenedorimagen > img{
+    object-fit: cover;
+    width: 100%;
 }
