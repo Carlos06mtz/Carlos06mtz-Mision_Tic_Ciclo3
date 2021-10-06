@@ -25,3 +25,30 @@ ul{
     outline: none;
     border: 0px;
 }
+.button{
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;     
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainButton{
+    background-color:#1bb76e;
+    box-shadow:rgb(124, 223, 214) 1px 1px;
+}
+.mainButton:hover{
+    box-shadow:green 2px 1px;
+}
+.secondaryButton{
+    background-color: rgb(139, 245, 245);
+}
+.secondaryButton:hover{
+    box-shadow:rgb(124, 223, 214) 1px 1px;
+}
+.logo{
+    height: 60px;
+}
