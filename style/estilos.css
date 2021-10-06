@@ -11,12 +11,22 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(230, 222, 220);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li{
+    display: flex;
+    align-items: center;
 }
 .buscar{
     background-color: white;
     border: solid 1px gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
     border: solid 1px blue;
@@ -25,18 +35,18 @@ ul{
     outline: none;
     border: 0px;
 }
-.button{
-    color: white;
+.botonGenerico{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;     
 }
-.button:hover{
+.botonGenerico:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
 .mainButton{
+    color: white;
     background-color:#1bb76e;
     box-shadow:rgb(124, 223, 214) 1px 1px;
 }
@@ -44,11 +54,15 @@ ul{
     box-shadow:green 2px 1px;
 }
 .secondaryButton{
+    color: white;
     background-color: rgb(78, 134, 219);
 }
 .secondaryButton:hover{
     box-shadow:rgb(124, 223, 214) 1px 1px;
 }
 .logo{
-    height: 50px;
+    height: 40px;
+}
+.iconobusqueda:hover{
+    color: rgb(137, 0, 235);
 }
