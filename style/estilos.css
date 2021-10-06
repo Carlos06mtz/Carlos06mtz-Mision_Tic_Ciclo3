@@ -44,11 +44,11 @@ ul{
     box-shadow:green 2px 1px;
 }
 .secondaryButton{
-    background-color: rgb(139, 245, 245);
+    background-color: rgb(78, 134, 219);
 }
 .secondaryButton:hover{
     box-shadow:rgb(124, 223, 214) 1px 1px;
 }
 .logo{
-    height: 60px;
+    height: 50px;
 }
